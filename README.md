@@ -4,6 +4,7 @@
 
 ### Source data
 The source data for the script includes the following files 
+
 1. activity_labels.txt
 2. features.txt
 3. \test\subject_test.txt
@@ -47,7 +48,4 @@ After merging remove the "activity_id" file since this is now duplicate informat
 - using the grep function on the features data, select the columns that have "means()" or "std()" in the name. Note that there is explicit check for the strings to exclude fields like "meanFreq"
 - melt the complete data set with activity_desc and subject_id as the ids and all the selected mean and std field as variables
 - from the melted data create a tidy data set by applying the "mean" function over the variables 
-- write the tidydata into a file tidydata.txt using the write.table function 
-- 
-
-
+- write the tidydata into a file tidydata.txt in the working directory using the write.table function.
