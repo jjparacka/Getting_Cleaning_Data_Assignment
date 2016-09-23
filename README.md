@@ -48,4 +48,8 @@ After merging remove the "activity_id" file since this is now duplicate informat
 - using the grep function on the features data, select the columns that have "means()" or "std()" in the name. Note that there is explicit check for the strings to exclude fields like "meanFreq"
 - melt the complete data set with activity_desc and subject_id as the ids and all the selected mean and std field as variables
 - from the melted data create a tidy data set by applying the "mean" function over the variables 
+- rename the fields in the dataset by appending "avg" in front of the name to indicate that the value is an average value.
 - write the tidydata into a file tidydata.txt in the working directory using the write.table function.
+
+The final dataset has 180 rows and 68 columns. There is one row for each of the 30 subjects for each of the 6 activities.  
+The description of the 68 columns can be found in the CodeBook.
