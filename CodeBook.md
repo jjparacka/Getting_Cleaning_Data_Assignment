@@ -1,1 +1,72 @@
+# Code book for tidydata.txt 
 
+Tidydata contains 68 fields. This contains average of means and standard deviations of observations taken from accelerometer and gyroscope readings collected from 30 volunteers wearing a smartphone and performing various activities. 
+
+- subject_id : factor, with values from 1 to 30 each indicating a particular volunteer.
+- activity_desc : factor, variable describing the activity performed, values (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+- avgtBodyAcc-mean()-X : numeric, average of means of BodyAcc X axis measurements
+- avgtBodyAcc-mean()-Y : numeric, average of means of BodyAcc Y axis measurements
+- avgtBodyAcc-mean()-Z : numeric, average of means of BodyAcc Z axis measurements
+- avgtBodyAcc-std()-X  : numeric, average of standard deviation of BodyAcc X axis measurements
+- avgtBodyAcc-std()-Y  : numeric, average of standard deviation of BodyAcc Y axis measurements
+- avgtBodyAcc-std()-Z  : numeric, average of standard deviation of BodyAcc Z axis measurements
+- avgtGravityAcc-mean()-X : numeric, average of means of GravityAcc X axis measurements
+- avgtGravityAcc-mean()-Y : numeric, average of means of GravityAcc Y axis measurements
+- avgtGravityAcc-mean()-Z : numeric, average of means of GravityAcc Y axis measurements
+- avgtGravityAcc-std()-X  : numeric, average of standard deviation of GravityAcc X axis measurements
+- avgtGravityAcc-std()-Y  : numeric, average of standard deviation of GravityAcc Y axis measurements
+- avgtGravityAcc-std()-Z  : numeric, average of standard deviation of GravityAcc Z axis measurements
+- avgtBodyAccJerk-mean()-X : numeric, average of means of BodyAccJerk X axis measurements
+- avgtBodyAccJerk-mean()-Y : numeric, average of means of BodyAccJerk Y axis measurements
+- avgtBodyAccJerk-mean()-Z : numeric, average of means of BodyAccJerk Z axis measurements
+- avgtBodyAccJerk-std()-X : numeric, average of standard deviation of BodyAccJerk X axis measurements
+- avgtBodyAccJerk-std()-Y : numeric, average of standard deviation of BodyAccJerk Y axis measurements
+- avgtBodyAccJerk-std()-Z : numeric, average of standard deviation of BodyAccJerk Z axis measurements
+- avgtBodyGyro-mean()-X : numeric, average of means of BodyGyro X axis measurements
+- avgtBodyGyro-mean()-Y : numeric, average of means of BodyGyro Y axis measurements
+- avgtBodyGyro-mean()-Z : numeric, average of means of BodyGyro Z axis measurements
+- avgtBodyGyro-std()-X : numeric, average of standard deviation of BodyGyro X axis measurements
+- avgtBodyGyro-std()-Y : numeric, average of standard deviation of BodyGyro Y axis measurements
+- avgtBodyGyro-std()-Z : numeric, average of standard deviation of BodyGyro Z axis measurements
+- avgtBodyGyroJerk-mean()-X : numeric, average of means of BodyGyroJerk X axis measurements
+- avgtBodyGyroJerk-mean()-Y : numeric, average of means of BodyGyroJerk Y axis measurements
+- avgtBodyGyroJerk-mean()-Z : numeric, average of means of BodyGyroJerk Z axis measurements
+- avgtBodyGyroJerk-std()-X : numeric, average of standard deviation of BodyGyroJerk Z axis measurements
+- avgtBodyGyroJerk-std()-Y : numeric, average of standard deviation of BodyGyroJerk Z axis measurements
+- avgtBodyGyroJerk-std()-Z : numeric, average of standard deviation of BodyGyroJerk Z axis measurements
+- avgtBodyAccMag-mean() : numeric, average of means of BodyAccMag
+- avgtBodyAccMag-std()  : numeric, average of standard deviation of BodyAccMag
+- avgtGravityAccMag-mean(): numeric, average of means of GravityAccMag
+- avgtGravityAccMag-std() : numeric, average of standard deviation of GravityAccMag
+- avgtBodyAccJerkMag-mean(): numeric, average of means of BodyAccJerkMag
+- avgtBodyAccJerkMag-std() : numeric, average of standard deviation of BodyAccJerkMag
+- avgtBodyGyroMag-mean()   : numeric, average of means of BodyGyroMag
+- avgtBodyGyroMag-std()    : numeric, average of standard deviation of BodyGyroMag
+- avgtBodyGyroJerkMag-mean() : numeric, average of means of BodyGyroJerkMag
+- avgtBodyGyroJerkMag-std()  : numeric, average of standard deviation of BodyGyroJerkMag
+- avgfBodyAcc-mean()-X   : numeric, average of means of BodyAcc X axis frequency domain measurements
+- avgfBodyAcc-mean()-Y   : numeric, average of means of BodyAcc Y axis frequency domain measurements
+- avgfBodyAcc-mean()-Z   : numeric, average of means of BodyAcc Z axis frequency domain measurements
+- avgfBodyAcc-std()-X    : numeric, average of standard deviation of BodyAcc X axis frequency domain measurements
+- avgfBodyAcc-std()-Y    : numeric, average of standard deviation of BodyAcc Y axis frequency domain measurements
+- avgfBodyAcc-std()-Z    : numeric, average of standard deviation of BodyAcc Z axis frequency domain measurements
+- avgfBodyAccJerk-mean()-X : numeric, average of means of BodyAccJerk X axis frequency domain measurements
+- avgfBodyAccJerk-mean()-Y : numeric, average of means of BodyAccJerk Y axis frequency domain measurements
+- avgfBodyAccJerk-mean()-Z : numeric, average of means of BodyAccJerk Z axis frequency domain measurements
+- avgfBodyAccJerk-std()-X  : numeric, average of standard deviation of BodyAccJerk X axis frequency domain measurements
+- avgfBodyAccJerk-std()-Y  : numeric, average of standard deviation of BodyAccJerk Y axis frequency domain measurements
+- avgfBodyAccJerk-std()-Z  : numeric, average of standard deviation of BodyAccJerk Z axis frequency domain measurements
+- avgfBodyGyro-mean()-X    : numeric, average of means of BodyGyro X axis frequency domain measurements
+- avgfBodyGyro-mean()-Y    : numeric, average of means of BodyGyro Y axis frequency domain measurements
+- avgfBodyGyro-mean()-Z    : numeric, average of means of BodyGyro Z axis frequency domain measurements
+- avgfBodyGyro-std()-X     : numeric, average of standard deviation of BodyGyro X axis frequency domain measurements
+- avgfBodyGyro-std()-Y     : numeric, average of standard deviation of BodyGyro Y axis frequency domain measurements
+- avgfBodyGyro-std()-Z     : numeric, average of standard deviation of BodyGyro Z axis frequency domain measurements
+- avgfBodyAccMag-mean()    : numeric, average of means of BodyAccMag frequency domain measurements
+- avgfBodyAccMag-std()     : numeric, average of standard deviation of BodyAccMag frequency domain measurements
+- avgfBodyBodyAccJerkMag-mean() : numeric, average of means of BodyAccJerkMag frequency domain measurements
+- avgfBodyBodyAccJerkMag-std()  : numeric, average of standard deviation of BodyAccJerkMag frequency domain measurements
+- avgfBodyBodyGyroMag-mean()  : numeric, average of means of BodyGyroMag frequency domain measurements
+- avgfBodyBodyGyroMag-std()   : numeric, average of standard deviation of BodyGyroMag frequency domain measurements
+- avgfBodyBodyGyroJerkMag-mean() : numeric, average of means of BodyGyroJerkMag frequency domain measurements
+- avgfBodyBodyGyroJerkMag-std()  : numeric, average of standard deviation of BodyGyroJerkMag frequency domain measurements
